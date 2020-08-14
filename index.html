@@ -1,60 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
     <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
 
     <title>Project Title</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Main Background Image and Navbar -->
-    <header>
-        <nav class="nav-wrapper transparent">
-        <div class="container">
-            <a href="" class="brand-logo">Our Project's Name</a>
-            <a href="" class="sidenav-trigger" data-target="mobile-menu">
-                <i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Link To first Api</a></li>
-                <li><a href="#">Link to Second Api</a></li>
-            </ul>
-            <ul class="sidenav grey lighten-4" id="mobile-menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Link To first Api</a></li>
-                <li><a href="#">Link to Second Api</a></li>
-            </ul>
-        </div>
+    <nav class="nav-wrapper transparent">
+      <div class="-#d7ccc8 brown lighten-4">
+        <a href="#" class="brand-logo -#ffffff white-text">Project Name</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li class="nav-btn">
+            <a href="" class="-#ffffff white-text">Home</a>
+          </li>
+          <li class="nav-btn">
+            <a href="" class="-#ffffff white-text">Food API</a>
+          </li>
+          <li class="nav-btn">
+            <a href="" class="-#ffffff white-text">Drink API</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-    </header>
+
     <section class="container section" id="APIs">
-        <div class="row">
-          <div class="col s12 l4">
-              <img src="assets/bar.jpg" alt="" class="responsive-img materialboxed">
-          </div>
-          <div class="col s12 l6 offset-l1">
-            <h2 class="indigo-text text-darken-4">First API Area</h2>
-            <p>WE CAN PLACE THE API'S SEARCH INPUTS HERE AND HAVE THE RESULTS LOAD UNDERNEATH? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-          </div>
+      <div class="row">
+        <div class="col s12 l4">
+          <img
+            src="assets/foodz.jpg"
+            alt=""
+            class="responsive-img materialboxed"
+          />
         </div>
-        <div class="row">
-          <div class="col s12 l4 offset-l1 push-l7">
-              <img src="assets/Restaurant-Aesthetic.jpg" alt="" class="responsive-img materialboxed">
-          </div>
-          <div class="col s12 l6 offset-l1 pull-l5 right-align">
-            <h2 class="indigo-text text-darken-4">Second API Area</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-          </div>
+        <div class="col s12 l6 offset-l1">
+          <h2 class="#3e2723 brown-text darken-4">First API Area</h2>
+          <p>
+            WE CAN PLACE THE API'S SEARCH INPUTS HERE AND HAVE THE RESULTS LOAD
+            UNDERNEATH? Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.
+          </p>
+          <a class="waves-effect waves-light btn -#3e2723 brown darken-4"
+            >button</a
+          >
         </div>
-  </section>
-     <!-- Compiled and minified JavaScript -->
-     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      </div>
+      <div class="row">
+        <div class="col s12 l4 offset-l1 push-l7">
+          <img
+            src="assets/drinks.jpg"
+            alt=""
+            class="responsive-img materialboxed"
+          />
+        </div>
+        <div class="col s12 l6 offset-l1 pull-l5 right-align">
+          <h2 class="#3e2723 brown-text darken-4">
+            Second API Area
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+            at lacus congue, suscipit elit nec, tincidunt orci.
+          </p>
+          <a class="waves-effect waves-light btn -#3e2723 brown darken-4"
+            >button</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
