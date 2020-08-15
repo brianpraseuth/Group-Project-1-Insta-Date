@@ -1,10 +1,11 @@
-body {
-  background-image: url(assets/cookin.jpg);
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
+html { 
+  background: url(assets/cookin.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
+
 @media screen and (max-width: 670px) {
   header {
     min-height: 500px;
@@ -17,16 +18,33 @@ img {
 }
 
 .brand-logo {
-  margin-left: 50px;
-  
+  margin-left: 50px;  
 }
 
 #nav-mobile {
   margin-right: 100px;
 }
 
+#page-title {
+  color: white;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 150px;
+}
+
+#page-slogan {
+  color: white;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+
 #APIs {
-  margin: 150px;
+  position: relative;
+  margin: 80px;
+  opacity: .9;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .modal {
@@ -34,6 +52,7 @@ img {
   font-family: Arial, Helvetica, sans-serif;
   border: dashed 3px black;
 }
+
 #entreeName {
   margin-top: 15px;
 }
@@ -59,4 +78,18 @@ img {
 #cocktailLink {
   font-size: larger;
   margin-bottom: 15px;
+}
+
+.btn {
+  background-color: #5d4037;
+}
+
+.descriptions {
+  font-size: 20px;
+}
+
+#dancing {
+  height: 200px;
+  position: relative;
+  margin-right: 0;
 }

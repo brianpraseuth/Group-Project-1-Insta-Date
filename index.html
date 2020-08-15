@@ -1,90 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <!-- Compiled and minified CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
-    <!--Import Google Icon Font-->
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
 
-    <title>Insta-Date</title>
-  </head>
-  <body>
-    <!-- Main Background Image and Navbar -->
-    <nav class="nav-wrapper transparent">
-      <div class="brown lighten-4">
-        <a href="#" class="brand-logo center white-text">Insta-Date</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li class="nav-btn">
-            <a href="" class="white-text">Home</a>
-          </li>
-          <li class="nav-btn">
-            <a href="" class="white-text">Food API</a>
-          </li>
-          <li class="nav-btn">
-            <a href="" class="white-text">Drink API</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 
-    <section class="container section card-panel brown lighten-5" id="APIs">
-      <div class="row">
-        <div class="col s12 l4">
-          <img
-            src="assets/foodz.jpg"
-            alt=""
-            class="responsive-img materialboxed z-depth-5"
-          />
-        </div>
-        <div class="col s12 l6 offset-l1">
-          <h2 class="brown-text darken-4">What's on the Menu?</h2>
-          <p>
-            Impress your date in two clicks or less!
-          </p>
-          <a href=“#entreeModal” class=“btn modal-trigger”>Random Entree</a>
-            <div class=“modal” id=“entreeModal”>
-                <h2 id=“entreeName”></h2>
-                <img id=“entreeImage”>
-                <p id=“entreeRecipe”></p>
-                <a id=“entreeLink”>Video Instructions</a>
-            </div>
+  <title>Insta-Date</title>
+</head>
+
+<body>
+  <!-- Main Background Image and Navbar -->
+  <h1 id="page-title">Insta-Date</h1>
+  <h2 id="page-slogan">Impress your date in two clicks or less!</h2>
+
+  <section class="container section card-panel brown lighten-5" id="APIs">
+
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="assets/foodz.jpg" alt="" class="responsive-img materialboxed z-depth-5" />
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="brown-text darken-4">What's on the Menu?</h2>
+        <p class="descriptions">
+          Throw on some aprons, put on some slow jams, and make something tasty!
+        </p>
+
+        <a href="#entreeModal" class="btn waves-effect waves-light brown modal-trigger">Get Cooking!</a>
+        <div class="modal" id="entreeModal">
+          <h2 id="entreeName"></h2>
+          <img id="entreeImage">
+          <p id="entreeRecipe"></p>
+          <a id="entreeLink">Video Instructions</a>
         </div>
       </div>
-      <div class="row">
-        <div class="col s12 l4 offset-l1 push-l7">
-          <img
-            src="assets/drinks.jpg"
-            alt=""
-            class="responsive-img materialboxed z-depth-5"
-          />
-        </div>
-        <div class="col s12 l6 offset-l1 pull-l5 right-align">
-          <h2 class="brown-text darken-4"> Bottoms Up!</h2>
-          <p>
-            Vodka, gin, tequila, rum? You got it!
-          </p>
-          <a href=“#cocktailModal” class=“btn modal-trigger”>Random Cocktail</a>
-            <div class=“modal” id=“cocktailModal”>
-                <h2 id=“cocktailName”></h2>
-                <img id=“cocktailImage”>
-                <p id=“cocktailRecipe”></p>
-                <a id=“cocktailLink”>Video Instructions</a>
-            </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col s12 l4 offset-l1 push-l7">
+        <img src="assets/drinks.jpg" alt="" class="responsive-img materialboxed z-depth-5" />
+      </div>
+      <div class="col s12 l6 offset-l1 pull-l5 right-align">
+        <h2 class="brown-text darken-4">Bottoms Up</h2>
+        <p class="descriptions">
+          Vodka, gin, tequila, rum? You got it!
+        </p>
+        <a href="#cocktailModal" class="btn waves-effect waves-light brown modal-trigger">Get Tipsy!</a>
+        <div class="modal" id="cocktailModal">
+          <h2 id="cocktailName"></h2>
+          <img id="cocktailImage">
+          <p id="cocktailRecipe"></p>
+          <a id="cocktailLink">Video Instructions</a>
         </div>
       </div>
-    </section>
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="script.js"></script>
-  </body>
+    </div>
+  </section>
+
+  <section class="container section card-panel brown lighten-5" id="APIs">
+    <div class="row">
+    <iframe class="col sm3" src="https://open.spotify.com/embed/playlist/6UZHoS6PxEE3pMCVSctBgn" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+    <div class="col s12 l6 offset-l1">
+    <h2 class="brown-text darken-4">Date Night Jams</h2>
+        <p class="descriptions">
+          Press play and let the magic happen!
+        </p>
+        <!-- Figure out how to move photo to the right -->
+          <img src="assets/photo-1531747056595-07f6cbbe10ad.jpeg" alt="" class="responsive-img materialboxed z-depth-5" id="dancing"/>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
 </html>
