@@ -11,8 +11,14 @@ body {
   }
 }
 
+img {
+  outline: #5d4037 solid 2px;
+  padding: 3px;
+}
+
 .brand-logo {
-  margin-left: 40px;
+  margin-left: 50px;
+  
 }
 
 #nav-mobile {
