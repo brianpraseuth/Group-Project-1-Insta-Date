@@ -54,6 +54,8 @@ img {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   border: dashed 3px black;
+  position: relative;
+  z-index: 1000;
 }
 
 #entreeName {
