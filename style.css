@@ -60,7 +60,7 @@ img {
   margin-top: 15px;
 }
 #entreeImage {
-  width: 500px;
+  width: 60%;
 }
 #entreeRecipe {
   padding: 15px;
@@ -73,7 +73,7 @@ img {
   margin-top: 15px;
 }
 #cocktailImage {
-  width: 500px;
+  width: 60%;
 }
 #cocktailRecipe {
   padding: 15px;
