@@ -29,19 +29,22 @@ img {
   color: white;
   text-align: center;
   font-family: 'Dancing Script', cursive;
-  font-size: 150px;
+  font-size: 10vw;
+  opacity: 85%;
 }
 
 #page-slogan {
   color: white;
   text-align: center;
   font-family: 'Dancing Script', cursive;
+  font-size: 5vw;
+  opacity: 85%;
 }
 
 #APIs {
   position: relative;
   margin: 80px;
-  opacity: .9;
+  opacity: .95;
   display: block;
   margin-left: auto;
   margin-right: auto;
